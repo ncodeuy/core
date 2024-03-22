@@ -1,0 +1,1 @@
+export type Unsaved<T> = Exclude<T, 'id' | 'createdAt' | 'updatedAt'>;
